@@ -12,7 +12,7 @@ def employeeProductivity():
   if productivityScore <= 30:
     bonus = 50.00
   else:
-    if productivityScore > 31 and productivityScore <= 69:
+    if productivityScore >= 31 and productivityScore <= 69:
       bonus = 75.00
     else: 
       if productivityScore >= 70 and productivityScore <= 199:
